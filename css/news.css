@@ -47,7 +47,7 @@
 
   @media (max-width: 768px) {
     .news-grid {
-      grid-template-columns: 1fr; /* در موبایل هر کارت در یک ردیف */
+      grid-template-columns: 1fr; 
     }
   
     .news-card {

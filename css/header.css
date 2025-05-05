@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'peychi';
-  src: url('fonts/peychi.woff2') format('woff2'); /* فونت رو اضافه کن تو پروژه */
+  src: url('fonts/peychi.woff2') format('woff2'); 
 }
 
 .site-header {
@@ -26,11 +26,11 @@
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 10px; /* فاصله بین لوگو و متن */
+  gap: 10px; 
 }
 
 .logo {
-  width: 50px; /* سایز کوچک‌تر */
+  width: 50px; 
   height: auto;
 }
 
