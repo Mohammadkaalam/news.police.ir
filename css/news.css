@@ -1,0 +1,83 @@
+.news-section {
+    padding: 1rem;
+  }
+  
+  .news-section h3 {
+    margin-bottom: 1rem;
+    color: #024731;
+  }
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .news-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+    grid-column: span 1;
+  }
+  
+  
+  .news-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .news-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .news-card h4 {
+    margin: 0.5rem;
+    font-size: 1.1rem;
+    color: #024731;
+  }
+  
+  .news-card p {
+    margin: 0 0.5rem 1rem;
+    font-size: 0.9rem;
+    color: #444;
+  }
+
+  @media (max-width: 768px) {
+    .news-grid {
+      grid-template-columns: 1fr; /* در موبایل هر کارت در یک ردیف */
+    }
+  
+    .news-card {
+      margin-bottom: 1rem;
+    }
+  
+    .news-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  
+    .news-card h4 {
+      font-size: 1rem;
+    }
+  
+    .news-card p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .news-card img {
+      height: 150px;
+    }
+    .news-card h4 {
+      font-size: 1rem;
+    }
+  
+    .news-card p {
+      font-size: 0.85rem;
+    }
+  }
