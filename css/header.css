@@ -82,7 +82,8 @@
 }
 
 .main-nav a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #9492ee;
 }
 
 @media (max-width: 768px) {

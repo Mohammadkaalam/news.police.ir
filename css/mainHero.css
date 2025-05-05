@@ -1,7 +1,6 @@
 .hero {
     position: relative;
     text-align: center;
-    margin: 1rem 0;
   }
   
   
@@ -59,7 +58,7 @@
     display: flex;
     gap: 3rem;
     list-style: none;
-    animation: scrollTicker 20s linear infinite;
+    animation: scrollTicker 30s linear infinite;
     padding: 0;
     margin: 0;
   }
@@ -80,8 +79,8 @@
   }
   
   .ticker a:hover {
-    color: #2d1868; 
-    text-decoration: underline;
+    color: grey; 
+    text-decoration: none;
   }
   
   @keyframes scrollTicker {
