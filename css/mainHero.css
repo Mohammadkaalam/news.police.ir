@@ -4,6 +4,7 @@
     margin: 1rem 0;
   }
   
+  
   .hero img {
     width: 100%;
     height: auto;
@@ -15,7 +16,7 @@
     position: absolute;
     bottom: 20px;
     right: 20px;
-    color: white;
+    color: rgb(10, 10, 10);
     background-color: rgba(2, 71, 49, 0.7);
     padding: 0.5rem 1rem;
     border-radius: 8px;
@@ -35,7 +36,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgba(191, 192, 192, 0.9);
+    background-color: rgba(17, 19, 19, 0.9);
     color: rgb(14, 9, 9);
     display: flex;
     align-items: center;
@@ -69,7 +70,9 @@
   
   .ticker li {
     white-space: nowrap;
+    
   }
+  
   .ticker a {
     color: white;
     text-decoration: none;
