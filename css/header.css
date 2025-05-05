@@ -5,6 +5,49 @@
 }
 
 
+
+@font-face {
+  font-family: 'peychi';
+  src: url('fonts/peychi.woff2') format('woff2'); /* فونت رو اضافه کن تو پروژه */
+}
+
+.site-header {
+  background-color: #001A66;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* فاصله بین لوگو و متن */
+}
+
+.logo {
+  width: 50px; /* سایز کوچک‌تر */
+  height: auto;
+}
+
+.logo-text {
+  font-family: 'peychi', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .icon {
+    width: 80px;
+  }
+}
+
+
 .main-header .container {
   width: 90%;
   max-width: 1200px;
