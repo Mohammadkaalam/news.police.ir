@@ -1,0 +1,43 @@
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    left: 1rem;
+    right: auto;
+    top: 1rem;
+    z-index: 1001;
+  }
+
+  .main-nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    width: 100%;
+    background-color: #024731;
+    margin-top: 1rem;
+  }
+
+  .main-nav.active {
+    max-height: 500px; /* یا هر مقداری که فضای کامل منو را پوشش دهد */
+  }
+
+  
+
+  .main-nav ul li {
+    border-top: 1px solid #ffffff33;
+    padding: 0.5rem 1rem;
+  }
+
+  .main-nav ul li a {
+    display: block;
+    width: 100%;
+  }
+}
