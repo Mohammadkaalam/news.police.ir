@@ -15,6 +15,12 @@
     top: 1rem;
     z-index: 1001;
   }
+  .fas.fa-search {
+    position: absolute;
+    left: 5rem;  /* تنظیم موقعیت آیکون سرچ در سمت چپ */
+    top: 1.7rem;
+    font-size: 24px;
+  }
 
   .main-nav {
     max-height: 0;

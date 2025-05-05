@@ -11,11 +11,11 @@
     animation: scroll 8s linear infinite;
     gap: 6rem;
   }
-  
+
   .org-marquee:hover .org-track {
     animation-play-state: paused;
   }
-  
+
   .org-card {
     background: linear-gradient(to bottom right, #fef6c0, #ffffff);
     width: 180px;
@@ -52,7 +52,7 @@
     }
   }
   
-  /* ریسپانسیو */
+  
   @media (max-width: 768px) {
     .org-card {
       width: 140px;
