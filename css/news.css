@@ -8,19 +8,32 @@
   }
   .news-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 2fr 1fr; /* چپ - وسط (بزرگ‌تر) - راست */
+  gap: 1rem;
+  align-items: start;
+  }
+  .side-column {
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
   }
-  
-  .news-card {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 0 8px rgba(0,0,0,0.05);
-    transition: transform 0.3s ease;
-    grid-column: span 1;
+  .center-column .news-card img {
+    height: 320px;
+    object-fit: cover;
   }
+  .center-column .news-card {
+    height: 100%;
+  }
+  
+
+  .news-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
   
   
   .news-card:hover {
