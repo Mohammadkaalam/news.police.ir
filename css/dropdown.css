@@ -1,0 +1,39 @@
+.main-nav .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #024731;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    top: 100%;
+    right: 0;
+    min-width: 150px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 999;
+
+  }
+  
+  .main-nav .dropdown li {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+  }
+  
+  .main-nav .dropdown a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-nav .dropdown a:hover {
+    background-color: #035f44;
+    display: block;
+  }
+  
+  /* Parent positioning */
+  .main-nav li.has-dropdown {
+    position: relative;
+  }
+  
+  /* Show dropdown on hover */
+  .main-nav li.has-dropdown:hover .dropdown {
+    display: block;
+    
+  }
